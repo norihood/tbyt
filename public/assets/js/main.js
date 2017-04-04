@@ -27,6 +27,6 @@ $(document).ready(function(){
 	        zIndex: 2147483647 // Z-Index for the overlay
 		});
 	});
-	$('.my-zoom').imageLens({ imageSrc: "assets/img/home/DSC_0646.JPG" });
+	$('.my-zoom').imageLens();
 
 });

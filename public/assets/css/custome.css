@@ -32,3 +32,14 @@ ul.sub-menu {
 .fa {
     line-height: inherit;
 }
+.product-image-wrapper {
+    border: 1px solid #09fd76;
+    /* overflow: hidden; */
+    margin-bottom: 30px;
+}
+.productinfo h3.price {
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}

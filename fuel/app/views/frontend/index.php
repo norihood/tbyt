@@ -7,12 +7,12 @@
 				<?php echo Asset::img('home/product1.jpg', array('class' => '', 'alt' => '', 'data-hight-src' => 'assets/img/home/DSC_0646.JPG', 'data-loader-src' => 'assets/img/home/loader.gif')); ?>
 			</div>
 		</div> -->
-		<div class="col-sm-4 my-zoom">
+		<div class="col-sm-4">
 			<div class="product-image-wrapper">
 				<div class="single-products">
 						<div class="productinfo text-center ">
 							<!-- <div class="wm-zoom-box"> -->
-								<?php echo Asset::img('home/product1.jpg', array('class' => '', 'alt' => '', 'data-hight-src' => 'assets/img/home/DSC_0646.JPG', 'data-loader-src' => 'assets/img/home/loader.gif')); ?>
+								<?php echo Asset::img('home/product1.jpg', array('class' => 'my-zoom', 'alt' => '', 'data-hight-src' => 'assets/img/home/DSC_0646.JPG', 'data-loader-src' => 'assets/img/home/loader.gif')); ?>
 							<!-- </div> -->
 							
 							<h2>$56</h2>

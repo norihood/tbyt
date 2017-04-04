@@ -27,11 +27,6 @@ $(document).ready(function(){
 	        zIndex: 2147483647 // Z-Index for the overlay
 		});
 	});
-	// $('.my-zoom').WMZoom({
-	//   	config : {
-	// 	    // disable inner zoom
-	// 	    inner : true
-	//   	}
-	// });
+	$('.my-zoom').imageLens({ imageSrc: "assets/img/home/DSC_0646.JPG" });
 
 });

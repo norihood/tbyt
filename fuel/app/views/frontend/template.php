@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | E-Shopper</title>
-    <?php echo Asset::css(array('bootstrap.min.css', 'font-awesome.min.css', 'prettyPhoto.css', 'price-range.css', 'animate.css', 'main.css', 'responsive.css', 'jquery.wm-zoom-1.0.min.css', 'custome.css')); ?>
+    <?php echo Asset::css(array('bootstrap.min.css', 'font-awesome.min.css', 'prettyPhoto.css', 'price-range.css', 'animate.css', 'main.css', 'responsive.css', 'custome.css')); ?>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -56,6 +56,6 @@
 
 	</footer><!--/Footer-->
 
-  	<?php echo Asset::js(array('jquery.js', 'bootstrap.min.js', 'jquery.scrollUp.min.js', 'price-range.js', 'jquery.prettyPhoto.js', 'jquery.wm-zoom-1.0.min.js', 'main.js')); ?>
+  	<?php echo Asset::js(array('jquery.js', 'bootstrap.min.js', 'jquery.scrollUp.min.js', 'price-range.js', 'jquery.prettyPhoto.js', 'jquery.imageLens.js', 'main.js')); ?>
 </body>
 </html>

@@ -30,7 +30,7 @@
 	<?php echo isset($slider) ? $slider : '' ?>
 	
 	<section>
-		<div class="container">
+		<div class="container content">
 			<?php if (isset($breadcrumb)) echo $breadcrumb; ?>
 
 			<div class="row">

@@ -51,7 +51,6 @@
                     target.hide();
                 });
                 function setPosition(e) {
-                    
                     var leftPos = parseInt(e.pageX - offset.left);
                     var topPos = parseInt(e.pageY - offset.top);
 

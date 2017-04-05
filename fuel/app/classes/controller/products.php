@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Home extends Controller_Base
+class Controller_Products extends Controller_Base
 {
 	/**
 	 * home index
@@ -13,4 +13,8 @@ class Controller_Home extends Controller_Base
 		$this->template->content = View::forge('frontend/index.php');
 	}
 
+	public function action_detail()
+	{
+		$this->template->content = View::forge('frontend/detail_product.php');
+	}
 }

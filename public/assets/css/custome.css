@@ -1,3 +1,6 @@
+.content {
+	margin-bottom: 20px;
+}
 ul.sub-menu {
 	width: 310px;
 }
@@ -42,4 +45,12 @@ ul.sub-menu {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 700;
+}
+.content_detail {
+	padding: 20px 40px;
+}
+@media (max-width: 480px){
+	.content_detail {
+		padding: 10px 10px;
+	}
 }

@@ -28,5 +28,12 @@ $(document).ready(function(){
 		});
 	});
 	$('.my-zoom').imageLens();
-
+	$('.galery_detail').on('click', 'a', function(e){
+		e.preventDefault();
+		var src = $(this).find('img').attr('src');
+		$('.view-product img').attr('src', src);
+	});
+	$('.item-control').on('click', function(){
+		$('.galery_detail a').blur();
+	})
 });
